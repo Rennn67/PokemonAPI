@@ -73,6 +73,7 @@ const PokemonList = () => {
                   alt={pokemon.name}
                 />
               </div>
+              <div className="pokemon-number">#{String(id).padStart(3, '0')}</div>
               <div className="pokemon-name">{pokemon.name}</div>
             </button>
           );
