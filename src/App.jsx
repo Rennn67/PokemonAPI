@@ -41,16 +41,15 @@ const PokemonList = () => {
   return (
     <div className="app-shell">
       <h1 className="title">
-        Pokemon App powered by{' '}
         <a href="https://pokeapi.co" target="_blank" rel="noopener noreferrer">
-          PokeAPI
+          PokéAPI
         </a>
       </h1>
 
       <div className="search-bar">
         <input
           type="text"
-          placeholder="Search Pokemon"
+          placeholder="Search Pokémon"
           value={search}
           onChange={(e) => setSearch(e.target.value)}
         />

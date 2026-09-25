@@ -1,5 +1,4 @@
 body {
-  margin: 0;
   min-height: 100vh;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background:
@@ -22,15 +21,17 @@ input {
 .title {
   text-align: center;
   margin: 0 0 22px;
-  font-size: clamp(2rem, 4vw, 3rem);
+  font-family: 'Pokemon Solid', sans-serif; 
+  font-size: 4rem;
   font-weight: 800;
   letter-spacing: 0.04em;
   color: #ffffff;
-  text-shadow: 0 3px 10px rgba(15, 23, 42, 0.2);
+  text-shadow:-2px -2px 0 #2A75BB, 2px -2px 0 #2A75BB, -2px  2px 0 #2A75BB, 2px  2px 0 #2A75BB, 0 6px 4px rgba(0, 0, 0, 0.35);
 }
 
 .title a {
-  color: #fef08a;
+  font-family: 'Pokemon Solid', sans-serif;
+  color: #d2c353;
   text-decoration: none;
 }
 
